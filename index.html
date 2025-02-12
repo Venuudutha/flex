@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #043735;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(202, 249, 16, 0.903);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.category {
+    color: gray;
+    font-size: 14px;
+}
+
+.rating {
+    color: gold;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2024/06/amozone.png" alt="">
+            <h2>AMAZON.IN</h2>
+            <P class="category">Shopping</P>
+            <p class="rating">★★★★☆</p>
+            <p>Get more offers on our website shopnow and Enjoy new offers</p>
+        </div>
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/C560BAQF6H8gAs-JyFg/company-logo_200_200/company-logo_200_200/0/1630669478258/flipkart_logo?e=2147483647&v=beta&t=UFzLg8m4edg6ElVVLp7eGm2syDwx6zAwsv_-pOT3zoU" alt="">
+            <h2>FLIPKART</h2>
+            <p class="category">Shopping</p>
+            <p class="rating">★★★★☆</p>
+            <p>Get more offers on our website shopnow and Enjoy new offers</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ6iVwMRnt1iMSkmikl8x2D4nSyHEJK6P-rw&s" alt="">
+            <h2>ZOMATO</h2>
+            <p class="category">FOOD</p>
+            <p class="rating">★★★★☆</p>
+            <p>Enjoy "HYDERABADI DHUM KA BIRIYANI" from our top most Restaurents</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVgBrK3RyyrqSLVJSN6ocUlbKLNN82cFPA-w&s" alt="">
+            <h2>SWIGGY</h2>
+            <p class="category">FOOD</p>
+            <p class="rating">★★★★☆</p>
+            <p>Enjoy upto 120rs OFF on BIRIYANI Open the app to order now !</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAb0zCsPzg-rGGNn-6poaFGGFF9wiUaXWy1Q&s" alt="">
+            <h2>ZEPTO</h2>
+            <p class="category">Grocery delivery</p>
+            <p class="rating">★★★★☆</p>
+            <p> Want to go out for Grocerys..?? dont warry here are our delivery Partners to bring it for you.. </p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNbAD2iOPk1Yk_7DDKy2A80Xdv2YF01Ny1kg&s" alt="">
+            <h2>RED BUS</h2>
+            <p class="category">TICKETS BOOKING</p>
+            <p class="rating">★★★★☆</p>
+            <p>Book your Tickets on Red bus and Get upto 500rs CASHBACK..  HURRYUPPP!!</p>
+        </div>
+    </div>
+</body>
+</html>
